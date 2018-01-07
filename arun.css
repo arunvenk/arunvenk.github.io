@@ -1,0 +1,132 @@
+body
+{
+	background-image:url('./imgs/andy_sim.png');
+	background-repeat:repeat;
+	background-attachment:fixed;
+	background-color:#ffffff;
+} 
+
+a	{
+	color: #078ade;
+	text-decoration: none;
+}
+
+a:hover	{
+	color: #7896C0;
+	text-decoration: underline;
+}
+
+#menubar
+{
+	padding: 0px;
+	height: 23px;
+	width: 700px;
+	background-color: #90d3ff;
+	text-align: center;
+	border: 1px solid #2097e5;
+	border-right: 0px;
+	border-left: 0px;
+	opacity:0.92;
+	filter: alpha(opacity=92);
+}
+
+#menubar a
+{
+	width: 139px;
+	display: block;
+	background-color: #90d3ff;
+	float: left;
+	color: #000000;
+	border-right: 1px solid #2097e5;
+	line-height: 23px;
+	font-weight: bold;
+
+}
+
+#menubar a:hover
+{
+	background-color: #65c3ff;
+	text-decoration: none;
+}
+
+#menubar a.chosen
+{
+	background-color: #0779c4;
+	color: #ffffff;
+}
+
+.title 
+{
+	font-size:38pt;
+	font-family: "Segoe UI", "Apple SD Gothic Neo", "Helvetica", "lucida grande", "FreeSans", "Arial";
+	font-weight:100;
+	letter-spacing: -2px;
+}
+
+.subtitle
+{
+	font-size:11pt;
+	font-family: "Segoe UI Light", "Apple SD Gothic Neo", "Helvetica", "lucida grande", "FreeSans", "Arial";
+	letter-spacing: 1px;
+}
+.copyright
+{
+	font-size: 70%;
+	color: #060c88;
+}
+
+#global
+{
+	font-family: "Segoe UI", "Apple SD Gothic Neo", "Helvetica", "lucida grande", "FreeSans", "Arial";
+	font-size: 11pt;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+
+}
+
+#pageContent
+{
+	width: 689;
+	
+	float:top-right;
+	padding: 5px;
+	padding-bottom: 0px;
+	/*background-color: #ffffff;*/
+	border: 1px solid #2097e5;
+	background-color:rgb(255,255,255); /* fallback for IE 8*/
+	background-color:rgba(255,255,255,0.90);
+	color: #1047b5;
+	/*opacity:.92;*/
+	filter: alpha(opacity=96); /* for IE */
+}
+
+td	{
+}
+
+th	{
+	}
+
+table   {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.invisible td  {
+    background: none;
+}
+
+table.invisible th  {
+    background: none;
+}
+
+span.papername {
+    font-weight: bold;
+    font-style: italic;
+}
+
+span.author {
+    font-weight: bold;
+    color: #cc5500;
+    text-decoration: underline;
+}
